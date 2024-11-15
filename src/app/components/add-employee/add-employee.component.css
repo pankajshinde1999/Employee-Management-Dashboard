@@ -1,0 +1,13 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Space between form fields */
+    max-width: 400px; /* Adjust width as needed */
+    margin: auto; /* Center the form on the page */
+    padding: 16px;
+  }
+  
+  .mat-form-field {
+    width: 100%; /* Make fields full-width within the container */
+  }
+  

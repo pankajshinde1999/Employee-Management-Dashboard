@@ -1,0 +1,59 @@
+<form [formGroup]="employeeForm" (ngSubmit)="onSubmit()" class="container mt-4">
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <mat-form-field appearance="fill" class="w-100">
+          <mat-label>Name</mat-label>
+          <input matInput formControlName="name" class="form-control">
+        </mat-form-field>
+      </div>
+  
+      <div class="col-md-6 mb-3">
+        <mat-form-field appearance="fill" class="w-100">
+          <mat-label>Email</mat-label>
+          <input matInput formControlName="email" class="form-control">
+        </mat-form-field>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <mat-form-field appearance="fill" class="w-100">
+          <mat-label>Department</mat-label>
+          <mat-select formControlName="department">
+            <mat-option value="HR">HR</mat-option>
+            <mat-option value="Engineering">Engineering</mat-option>
+            <mat-option value="Finance">Finance</mat-option>
+            <mat-option value="IT">IT</mat-option>
+            <mat-option value="Operations">Operations</mat-option>
+            <mat-option value="Sales">Sales</mat-option>
+            <mat-option value="Marketing">Marketing</mat-option>
+            <mat-option value="Customer Support">Customer Support</mat-option>
+            <mat-option value="Legal">Legal</mat-option>
+            <mat-option value="Product Management">Product Management</mat-option>
+            <mat-option value="Design">Design</mat-option>
+            <mat-option value="Quality Assurance">Quality Assurance</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+  
+      <div class="col-md-6 mb-3">
+        <mat-form-field appearance="fill" class="w-100">
+          <mat-label>Joining Date</mat-label>
+          <input matInput [matDatepicker]="picker" formControlName="joiningDate" class="form-control">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <mat-form-field appearance="fill" class="w-100">
+          <mat-label>Package</mat-label>
+          <input matInput formControlName="package" class="form-control" type="number">
+        </mat-form-field>
+      </div>
+  
+  
+    <button mat-raised-button color="primary" type="submit" class="btn btn-primary mt-3">Add Emp
+  

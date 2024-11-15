@@ -1,0 +1,40 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "department": "HR",
+      "joiningDate": "2022-01-15"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "department": "Engineering",
+      "joiningDate": "2021-08-10"
+    },
+    {
+      "id": "3",
+      "name": "raj",
+      "email": "raj@gmail.com",
+      "department": "Engineering",
+      "joiningDate": "2024-11-19T18:30:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "raj01",
+      "email": "raj01@gmail.com",
+      "department": "Engineering",
+      "joiningDate": "2024-11-20T18:30:00.000Z"
+    },
+    {
+      "id": "5",
+      "name": "raj02",
+      "email": "raj02@gmail.com",
+      "department": "IT",
+      "joiningDate": "2024-11-27T18:30:00.000Z",
+      "package": 22
+    }
+  ]
+}

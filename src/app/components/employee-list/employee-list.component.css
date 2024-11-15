@@ -1,0 +1,23 @@
+.dashboard-heading {
+    margin-bottom: 16px; /* Space below the heading */
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .add-filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0; /* Top and bottom margin for spacing */
+  }
+  
+  button[mat-raised-button] {
+    margin-right: 16px; /* Space to the right of the button */
+  }
+  
+  mat-form-field {
+    width: 250px; /* Adjust as needed */
+    margin: 0 16px; /* Optional margin for the form field */
+  }
+  
